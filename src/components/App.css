@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,10 +8,81 @@
 body {
   background-color: #232b3b;
   color: white;
+  font-family: "Raleway", sans-serif;
 }
 
 .App {
   max-width: 1140px;
   padding: 0 15px;
   margin: 30px auto;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 40px;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h2 span {
+  color: #ffd493;
+}
+
+h4 {
+  margin-bottom: 30px;
+}
+
+.weather-results {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.label,
+.result {
+  display: flex;
+  padding: 5px 15px;
+  justify-content: center;
+  text-align: center;
+}
+
+.label {
+  background-color: #2196f3;
+  border-radius: 3px 3px 0 0;
+}
+
+.additional-data-container .label {
+  background-color: #009688;
+}
+
+.sun-container .label {
+  background-color: #ff9800;
+}
+
+.additional-data-container .result {
+  background-color: #00968716;
+}
+
+.sun-container .result {
+  background-color: #ff98001f;
+}
+
+.result {
+  background-color: #2196f31f;
+}
+
+.col {
+  margin-bottom: 30px;
+}
+
+.col > div {
+  min-width: 200px;
+  margin-bottom: 15px;
+  padding: 0 15px;
 }

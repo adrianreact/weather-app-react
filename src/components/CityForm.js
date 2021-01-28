@@ -8,7 +8,6 @@ function CityForm({ inputValue, setInputValue, handleClick }) {
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
       />
-      <button onClick={handleClick}>Go</button>
     </div>
   );
 }
